@@ -10,8 +10,5 @@ php:
   - 7.4snapshot
   - nightly
 
-before_script:
-    - phpenv config-add travis.php.ini
-
 script:
   - php test.php
